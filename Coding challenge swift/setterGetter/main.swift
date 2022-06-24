@@ -19,7 +19,9 @@ public class Product {
             }
             
         }
-        get { return _quantity }
+        get {
+            _quantity
+        }
     }
     
     public init(quantity: Int) {
